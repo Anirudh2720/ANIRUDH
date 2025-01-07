@@ -1,6 +1,6 @@
 ## Bagging with Decision Trees on MNIST Dataset
 
-This project implements a Bagging ensemble method using Decision Trees to classify images from the MNIST dataset. The code demonstrates the process of training three decision trees on different subsets of the training data, making predictions on the test set, and evaluating the model's performance using accuracy and confusion matrix.
+This project implements a Bagging ensemble method using Decision Trees to classify images from the MNIST dataset. The code demonstrates the process of training three decision trees on different subsets of the training data, making predictions on the test set, and evaluating the model's performance using an accuracy and confusion matrix.
 
 ## Project Structure
 
@@ -34,38 +34,9 @@ The project uses the MNIST dataset, which consists of 70,000 28x28 grayscale ima
    - The accuracy of the model is calculated by comparing the predicted labels with the true labels from the test set.
    - A confusion matrix is plotted to visualize the performance of the model.
 
-## Steps to Run the Code
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/yourusername/mnist-bagging-decision-trees.git
-   cd mnist-bagging-decision-trees
-Install the required libraries:
-
-bash
-Copy code
-pip install -r requirements.txt
-Run the main.py script:
-
-bash
-Copy code
-python main.py
-Example Output
-The accuracy of the model is printed, and a confusion matrix is displayed to evaluate the model's performance.
-
-Example output:
-
-bash
-Copy code
-Accuracy: 0.906
-Confusion Matrix
-A heatmap of the confusion matrix is displayed, showing the true vs. predicted labels for each class (0-9).
-
 Acknowledgments
 The MNIST dataset is publicly available from OpenML and was used for benchmarking machine learning algorithms.
 vbnet
-Copy code
 
 Make sure to replace `yourusername` with your actual GitHub username, and you may need to adjust any project details (e.g., files, licenses) based on your actual project structure.
 
